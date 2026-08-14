@@ -2,19 +2,18 @@
   "name": "farmjs-react-compiler-starter",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
-  "description": "Experimental FARMJS React AOT compiler starter and comparison lab",
+  "description": "Experimental FARMJS React AOT compiler starter with the shared dark starter UI",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/farming-labs/farmjs-react-compiler-starter.git"
   },
+  "type": "module",
   "scripts": {
     "dev": "farm dev",
     "build": "farm build",
     "start": "farm start",
     "experiment": "pnpm run build && node scripts/verify-experiment.mjs",
-    "experiment:heavy": "node scripts/verify-heavy-experiment.mjs",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
@@ -30,6 +29,7 @@
     "@playwright/test": "^1.52.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.10"
   },
