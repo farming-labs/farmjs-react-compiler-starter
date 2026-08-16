@@ -32,5 +32,19 @@ jobs:
       - name: Type-check
         run: pnpm type-check
 
-      - name: Build
-        run: pnpm build
+      - name: Install Playwright Chromium
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Verify compiler experiment
+        run: pnpm experiment
+        env:
+          FARM_EXPERIMENT_SCREENSHOT: compiler-experiment.png
+
+      - name: Upload experiment failure artifact
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiler-experiment
+          path: compiler-experiment.png
+          if-no-files-found: ignore
+          retention-days: 7
