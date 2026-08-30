@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@farm.js/core':
-        specifier: 0.1.0-beta.70
-        version: 0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
+        specifier: 0.1.0-beta.71
+        version: 0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
       '@farm.js/react':
-        specifier: 0.1.0-beta.6
-        version: 0.1.0-beta.6(@farm.js/core@0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(supports-color@10.2.2)
+        specifier: 0.1.0-beta.7
+        version: 0.1.0-beta.7(@farm.js/core@0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(supports-color@10.2.2)
       '@fontsource-variable/geist':
         specifier: 5.3.0
         version: 5.3.0
@@ -28,8 +28,8 @@ importers:
         version: 19.2.8(react@19.2.8)
     devDependencies:
       '@farm.js/cli':
-        specifier: 0.1.0-beta.70
-        version: 0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
+        specifier: 0.1.0-beta.71
+        version: 0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
       '@playwright/test':
         specifier: ^1.52.0
         version: 1.62.1
@@ -766,12 +766,12 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@farm.js/cli@0.1.0-beta.70':
-    resolution: {integrity: sha512-yAgUgbybtkblcYsZ4UO9WviLnfaWCZGdndG6dGC1n3YU7YYwx9c/ktGU/M2iHsjGs8OwmmforZ/kcACJeKI1nQ==}
+  '@farm.js/cli@0.1.0-beta.71':
+    resolution: {integrity: sha512-f/8XPH27YUhAfBaBFzxYHxJEY0FMWOqIIPNENzcrdGppA5ktv2QhVxJ0dGPNL3XjzxuIp/kT01hk+TG6emA60A==}
     hasBin: true
 
-  '@farm.js/core@0.1.0-beta.70':
-    resolution: {integrity: sha512-ErC4K2AZzcW8pXc++fDmeymA+uNitMLHL7Hsqepj81UM0W/RCshczzQmEm0ZLbO6XJC2YMygc7sJVNKix9eOaw==}
+  '@farm.js/core@0.1.0-beta.71':
+    resolution: {integrity: sha512-0EiAvTmny3r9gCOj5tWzUHl9IO0LX75a8Huz6Gy4Ew4HPI7ADKriVW7MNHjicBwXZTA2I2nBoSsSx34BF3K2Sg==}
     peerDependencies:
       react: ^18.2.0 || ^19.0.0
       react-dom: ^18.2.0 || ^19.0.0
@@ -781,8 +781,8 @@ packages:
       react-dom:
         optional: true
 
-  '@farm.js/react@0.1.0-beta.6':
-    resolution: {integrity: sha512-EApCo3k+IFMAKqOi5xDOppvrolqsyEV0HUXT9MDcu19Nz9SaG1RZ/AKBrnSVpFrAZKhcaOuRegMwIRJg8KtMuw==}
+  '@farm.js/react@0.1.0-beta.7':
+    resolution: {integrity: sha512-E73Foz5P9P/DxAtLVJZZnknVF6/ayJUHE4mSJsdJIx8iPnkBbAS+DmObolRP97aJUwWgGar9D/wnRbrXLmXU+g==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       '@farm.js/core': '>=0.1.0-beta.70 <0.2.0'
@@ -5538,9 +5538,9 @@ snapshots:
   '@esbuild/win32-x64@0.28.2':
     optional: true
 
-  '@farm.js/cli@0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)':
+  '@farm.js/cli@0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)':
     dependencies:
-      '@farm.js/core': 0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
+      '@farm.js/core': 0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
       '@farm.js/tunnel': 0.1.0
       commander: 11.1.0
       croner: 9.1.0
@@ -5613,7 +5613,7 @@ snapshots:
       - xml2js
       - yaml
 
-  '@farm.js/core@0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)':
+  '@farm.js/core@0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)':
     dependencies:
       '@farming-labs/docs': 0.2.105(react@19.2.8)(supports-color@10.2.2)
       '@farming-labs/orm': 0.0.62
@@ -5718,10 +5718,10 @@ snapshots:
       - xml2js
       - yaml
 
-  '@farm.js/react@0.1.0-beta.6(@farm.js/core@0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(supports-color@10.2.2)':
+  '@farm.js/react@0.1.0-beta.7(@farm.js/core@0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(supports-color@10.2.2)':
     dependencies:
       '@babel/core': 7.28.4(supports-color@10.2.2)
-      '@farm.js/core': 0.1.0-beta.70(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
+      '@farm.js/core': 0.1.0-beta.71(@mikro-orm/core@7.1.11)(@prisma/client@6.19.3(typescript@5.9.3))(@types/node@26.2.0)(@xata.io/client@0.30.1(typescript@5.9.3))(crossws@0.4.10(srvx@0.8.16))(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@prisma/client@6.19.3(typescript@5.9.3))(@xata.io/client@0.30.1(typescript@5.9.3))(kysely@0.28.17)(pg@8.23.0))(jiti@2.7.0)(kysely@0.28.17)(lightningcss@1.33.0)(lru-cache@11.5.2)(mongodb@6.21.0)(mongoose@8.24.3(supports-color@10.2.2))(ofetch@1.5.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sequelize@6.37.8(pg@8.23.0)(supports-color@10.2.2))(surrealdb@2.0.8(tslib@2.8.1)(typescript@5.9.3))(typeorm@0.3.31(mongodb@6.21.0)(pg@8.23.0)(supports-color@10.2.2))(typescript@5.9.3)(yaml@2.9.0)
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
     transitivePeerDependencies:
