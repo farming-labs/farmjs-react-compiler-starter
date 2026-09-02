@@ -4,6 +4,8 @@ A focused experimental starter for FARMJS's React AOT compiler. It uses the same
 as the other Create FARMJS App starters and includes one live comparison: an eligible local state
 update beside ordinary React reconciliation.
 
+Current starter baseline: Farm.js `0.1.0-beta.78` and Farm React `0.1.0-beta.8`.
+
 > The compiler is experimental. Unsupported component shapes stay on React, so the optimization is
 > never required for correctness.
 
