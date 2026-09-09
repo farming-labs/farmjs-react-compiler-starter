@@ -4,7 +4,7 @@ A focused experimental starter for FARMJS's React AOT compiler. It uses the same
 as the other Create FARMJS App starters and includes one live comparison: an eligible local state
 update beside ordinary React reconciliation.
 
-Current starter baseline: Farm.js `0.1.0-beta.88` and Farm React `0.1.0-beta.8`.
+Current starter baseline: Farm.js `0.1.0-beta.89` and Farm React `0.1.0-beta.8`.
 
 Requires Node.js 22.13 or newer.
 
