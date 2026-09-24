@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@farm.js/cli": "0.1.0-beta.104",
-    "@playwright/test": "^1.52.0",
+    "@playwright/test": "^1.63.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "tailwindcss": "^4.3.3",
