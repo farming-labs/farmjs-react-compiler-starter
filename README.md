@@ -4,7 +4,8 @@ A focused experimental starter for FARMJS's React AOT compiler. It uses the same
 as the other Create FARMJS App starters and includes one live comparison: an eligible local state
 update beside ordinary React reconciliation.
 
-Current starter baseline: Farm.js `0.1.0-beta.95` and Farm React `0.1.0-beta.9`.
+Current starter baseline: Farm.js `0.1.0` and Farm React `0.1.0-beta.16`.
+Core is stable; the separately versioned React compiler/runtime remains beta.
 
 Requires Node.js 22.13 or newer.
 
@@ -23,7 +24,7 @@ pnpm dev
 Or generate the same project through Create FARMJS App:
 
 ```bash
-pnpm create @farm.js/app@beta my-compiler-app --template react-compiler --typescript
+pnpm create @farm.js/app@0.1.0 my-compiler-app --template react-compiler --typescript
 cd my-compiler-app
 pnpm dev
 ```
