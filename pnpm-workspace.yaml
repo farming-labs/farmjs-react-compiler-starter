@@ -9,3 +9,4 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - "@farm.js/*"
+  - "@farming-labs/*"
