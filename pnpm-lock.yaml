@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@farm.js/core':
-        specifier: 0.1.36
-        version: 0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
+        specifier: 0.1.42
+        version: 0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
       '@farm.js/react':
-        specifier: 0.1.0-beta.31
-        version: 0.1.0-beta.31(@farm.js/core@0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1)))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@10.2.2)
+        specifier: 0.1.0-beta.32
+        version: 0.1.0-beta.32(@farm.js/core@0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1)))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@10.2.2)
       '@fontsource-variable/geist':
         specifier: 5.3.0
         version: 5.3.0
@@ -31,8 +31,8 @@ importers:
         version: 0.35.5(@types/node@22.20.1)
     devDependencies:
       '@farm.js/cli':
-        specifier: 0.1.36
-        version: 0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
+        specifier: 0.1.42
+        version: 0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
       '@playwright/test':
         specifier: ^1.63.0
         version: 1.64.1
@@ -136,13 +136,13 @@ packages:
   '@emnapi/runtime@1.11.3':
     resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
 
-  '@farm.js/cli@0.1.36':
-    resolution: {integrity: sha512-kPNYLztpD3q8pu4719noaiDYqZrstL0qSXLp1dbrAlWE2Bb5Dut6dYAINAmbvd4yNRoHciugoEIH68yHhmY6aw==}
+  '@farm.js/cli@0.1.42':
+    resolution: {integrity: sha512-B33HjVRUlMPrT5HUJoWcKASeLhwYJ1jIhobtyFhqbjXZ9tiEhFHDW1sVBOP1tZn8dsEBGTacwbVQ4CErggwdRw==}
     engines: {node: '>=22.13.0'}
     hasBin: true
 
-  '@farm.js/core@0.1.36':
-    resolution: {integrity: sha512-5l/LD6nZXyD9EI2TV1e2WnPYQG9Ygw+6wQ0YX1g1jBYQpH7saZuLvK9IFGye7DZv4X5jh5lJrdi8O4GDBQSduA==}
+  '@farm.js/core@0.1.42':
+    resolution: {integrity: sha512-26Q54xGpBiyw/R+Xg3W3SijEkzxDnxdO5SsT9GGDdxf09JsCBdJI7bOHP8ZOyLo0JQje8Rtx8eEWEl4ipUlmuQ==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
       '@farming-labs/docs': ^0.2.118
@@ -165,8 +165,8 @@ packages:
       sharp:
         optional: true
 
-  '@farm.js/react@0.1.0-beta.31':
-    resolution: {integrity: sha512-245De/4zIV1AIdiZYQdbg9J9FdctYjZr+28gL2Lug7+9Ij/IDkh/aGWlVw1N4FT9ltzW4n2LqhA2DpFtNEPIgw==}
+  '@farm.js/react@0.1.0-beta.32':
+    resolution: {integrity: sha512-BoqlYNhT5p6qonsj22mPKYCtMRB4QZikD9a5mYBLq3qSwhS4JfHVhjPbaLGoiPVymgUnB5NCJGeS1Ag8Y0kOUA==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
       '@farm.js/core': '>=0.1.0 <0.2.0'
@@ -815,6 +815,22 @@ packages:
 
   '@ungap/structured-clone@1.4.0':
     resolution: {integrity: sha512-1mEZtMKPM09vDmQt5y7YvmN2+DFTP7Tg0EWXdic8/C6VRnpb33e4ghisCIE3WZjsE2N8mf+QV1Zqh7ZFYLWInQ==}
+
+  '@vitejs/plugin-react@6.1.2':
+    resolution: {integrity: sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0
+      babel-plugin-react-compiler: ^1.0.0
+      oxc-transform-react: ^0.152.0
+      vite: ^8.0.0
+    peerDependenciesMeta:
+      '@rolldown/plugin-babel':
+        optional: true
+      babel-plugin-react-compiler:
+        optional: true
+      oxc-transform-react:
+        optional: true
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2046,9 +2062,9 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@farm.js/cli@0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))':
+  '@farm.js/cli@0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))':
     dependencies:
-      '@farm.js/core': 0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
+      '@farm.js/core': 0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
       '@farm.js/tunnel': 0.1.2
       commander: 11.1.0
       croner: 9.1.0
@@ -2071,6 +2087,7 @@ snapshots:
       - '@netlify/blobs'
       - '@planetscale/database'
       - '@prisma/client'
+      - '@rolldown/plugin-babel'
       - '@tailwindcss/vite'
       - '@types/node'
       - '@upstash/redis'
@@ -2081,6 +2098,7 @@ snapshots:
       - '@vitejs/devtools'
       - '@xata.io/client'
       - aws4fetch
+      - babel-plugin-react-compiler
       - better-sqlite3
       - crossws
       - drizzle-orm
@@ -2094,6 +2112,7 @@ snapshots:
       - mongoose
       - mysql2
       - ocache
+      - oxc-transform-react
       - pg-native
       - react
       - react-dom
@@ -2111,7 +2130,7 @@ snapshots:
       - uploadthing
       - yaml
 
-  '@farm.js/core@0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))':
+  '@farm.js/core@0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))':
     dependencies:
       '@farming-labs/orm': 0.0.65
       '@farming-labs/orm-runtime': 0.0.65(db0@0.3.4)
@@ -2119,6 +2138,7 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       '@mdx-js/mdx': 3.1.1(supports-color@10.2.2)
       '@opentelemetry/api': 1.9.1
+      '@vitejs/plugin-react': 6.1.2(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0))
       better-call: 1.4.2(zod@4.6.7)
       db0: 0.3.4
       es-module-lexer: 2.0.0
@@ -2159,6 +2179,7 @@ snapshots:
       - '@netlify/blobs'
       - '@planetscale/database'
       - '@prisma/client'
+      - '@rolldown/plugin-babel'
       - '@types/node'
       - '@upstash/redis'
       - '@vercel/blob'
@@ -2167,6 +2188,7 @@ snapshots:
       - '@vitejs/devtools'
       - '@xata.io/client'
       - aws4fetch
+      - babel-plugin-react-compiler
       - better-sqlite3
       - crossws
       - drizzle-orm
@@ -2180,6 +2202,7 @@ snapshots:
       - mongoose
       - mysql2
       - ocache
+      - oxc-transform-react
       - pg-native
       - sass
       - sass-embedded
@@ -2194,10 +2217,10 @@ snapshots:
       - uploadthing
       - yaml
 
-  '@farm.js/react@0.1.0-beta.31(@farm.js/core@0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1)))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@10.2.2)':
+  '@farm.js/react@0.1.0-beta.32(@farm.js/core@0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1)))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@10.2.2)':
     dependencies:
       '@babel/core': 7.28.4(supports-color@10.2.2)
-      '@farm.js/core': 0.1.36(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
+      '@farm.js/core': 0.1.42(@tailwindcss/vite@4.3.3(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0)))(@types/node@22.20.1)(crossws@0.4.15(srvx@1.0.6))(jiti@2.7.0)(ocache@0.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sharp@0.35.5(@types/node@22.20.1))
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
     transitivePeerDependencies:
@@ -2750,6 +2773,11 @@ snapshots:
   '@types/unist@3.0.3': {}
 
   '@ungap/structured-clone@1.4.0': {}
+
+  '@vitejs/plugin-react@6.1.2(vite@8.3.4(@types/node@22.20.1)(jiti@2.7.0))':
+    dependencies:
+      '@rolldown/pluginutils': 1.0.1
+      vite: 8.3.4(@types/node@22.20.1)(jiti@2.7.0)
 
   acorn-jsx@5.3.2(acorn@8.19.0):
     dependencies:
